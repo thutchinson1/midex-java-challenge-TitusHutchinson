@@ -4,6 +4,6 @@ import com.mindex.challenge.data.Compensation;
 
 public interface CompensationService {
     Compensation create(Compensation compensation);
-    Compensation read(String id);
-    Compensation update(String id, Compensation compensation);
+    Compensation read(String employeeId);
+    Compensation update(String employeeId, Compensation compensation);
 }
